@@ -58,7 +58,7 @@ func SetShrinkContent(shrink rune) {
 }
 
 // EOFC is the EOF character.
-const EOFC rune = '~'
+const EOFC rune = ' '
 
 // EOFContent is EOFC only.
 var EOFContent = content{
